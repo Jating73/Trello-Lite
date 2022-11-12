@@ -1,0 +1,26 @@
+.card{
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.card_labels{
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card_labels svg{
+    height: 18px;
+    width: 18px;
+    cursor: pointer;
+}
+.card_title{
+    font-weight: bold;
+}
+.card_footer{
+    display: flex;
+    justify-content: space-between;
+}
